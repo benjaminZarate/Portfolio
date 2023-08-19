@@ -25,10 +25,12 @@ const Home = ({content}) => {
                         </Link>
                     </div>
                 </div>
-                <div>
-                    <img src={me}
-                    alt="my profile"
-                    className="rounded-2x1 mx-auto w-2/3 md:w-full"/>
+                <div className="flex flex-wrap justify-center">
+                    <div className=" w-10/12 sm:w-12/12 px-4">
+                        <img src={me}
+                        alt="my profile"
+                        className="shadow rounded-full max-w-full h-auto align-middle border-none"/>
+                    </div>
                 </div>
             </div>
         </div>
